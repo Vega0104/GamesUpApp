@@ -1,49 +1,118 @@
-package com.gamesUP.gamesUP.controller;
-
-import java.sql.*;
-import java.util.ArrayList;
-import java.util.List;
-
-import org.springframework.web.bind.annotation.*;
-
-import com.gamesUP.gamesUP.model.Game;
-
-public class GameController {
-
-    private String jdbcUrl = "jdbc:mysql://localhost:3306/gameUP";
-    private String username = "root";
-    private String password = "password";
-
-    @GetMapping
-    public List<Game> getAllJeux() {
-        List<Game> jeux = new ArrayList<>();
-        try (Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
-             Statement stmt = connection.createStatement();
-             ResultSet rs = stmt.executeQuery("SELECT * FROM jeux")) {
-
-            while (rs.next()) {
-                Game game = new Game();
-                game.id=rs.getInt("id");
-                game.nom = rs.getString("nom");
-                game.auteur=rs.getString("auteur");
-                jeux.add(game);
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        return jeux;
-    }
-
-    @PostMapping
-    public void ajouterJeu(@RequestBody Game game) {
-        try (Connection connection = DriverManager.getConnection(jdbcUrl, username, password);
-             PreparedStatement stmt = connection.prepareStatement("INSERT INTO jeux (nom, auteur) VALUES (?, ?)")) {
-
-            stmt.setString(1, game.nom);
-            stmt.setString(2, game.auteur);
-            stmt.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-    }
-}
+//package com.gamesUP.gamesUP.controller;
+//
+//import com.gamesUP.gamesUP.service.GameService;
+//import com.gamesUP.gamesUP.model.Game;
+//
+//import org.springframework.http.ResponseEntity;
+//import org.springframework.validation.annotation.Validated;
+//import org.springframework.web.bind.annotation.*;
+//
+//import java.net.URI;
+//import java.util.List;
+//
+//@RestController
+//@RequestMapping("/api/games")
+//@Validated
+//public class GameController {
+//
+//    private final GameService gameService;
+//    private final GameMapper mapper;
+//
+//    public GameController(GameService gameService, GameMapper mapper) {
+//        this.gameService = gameService;
+//        this.mapper = mapper;
+//    }
+//
+//    // CREATE
+//    @PostMapping
+//    public ResponseEntity<GameResponse> create(@Valid @RequestBody GameRequest req) {
+//        Game created = gameService.create(
+//                req.title(),
+//                req.description(),
+//                req.releaseDate(),
+//                req.basePrice(),
+//                req.currency(),
+//                req.pegiRating(),
+//                req.categoryId(),
+//                req.publisherId(),
+//                req.studioId()
+//        );
+//        return ResponseEntity
+//                .created(URI.create("/api/games/" + created.getId()))
+//                .body(mapper.toResponse(created));
+//    }
+//
+//    // READ by ID
+//    @GetMapping("/{id}")
+//    public ResponseEntity<GameResponse> getById(@PathVariable @Min(1) Long id) {
+//        return gameService.findById(id)
+//                .map(mapper::toResponse)
+//                .map(ResponseEntity::ok)
+//                .orElse(ResponseEntity.notFound().build());
+//    }
+//
+//    // READ by slug
+//    @GetMapping("/slug/{slug}")
+//    public ResponseEntity<GameResponse> getBySlug(@PathVariable @NotBlank String slug) {
+//        return gameService.findBySlug(slug)
+//                .map(mapper::toResponse)
+//                .map(ResponseEntity::ok)
+//                .orElse(ResponseEntity.notFound().build());
+//    }
+//
+//    // LIST all
+//    @GetMapping
+//    public List<GameResponse> listAll() {
+//        return gameService.findAll().stream().map(mapper::toResponse).toList();
+//    }
+//
+//    // SEARCH by title (contains, case-insensitive)
+//    @GetMapping("/search")
+//    public List<GameResponse> searchByTitle(@RequestParam("title") @NotBlank String title) {
+//        return gameService.findByTitle(title).stream().map(mapper::toResponse).toList();
+//    }
+//
+//    // FILTER by category
+//    @GetMapping("/category/{categoryId}")
+//    public List<GameResponse> byCategory(@PathVariable @Min(1) Long categoryId) {
+//        return gameService.findByCategory(categoryId).stream().map(mapper::toResponse).toList();
+//    }
+//
+//    // FILTER by publisher
+//    @GetMapping("/publisher/{publisherId}")
+//    public List<GameResponse> byPublisher(@PathVariable @Min(1) Long publisherId) {
+//        return gameService.findByPublisher(publisherId).stream().map(mapper::toResponse).toList();
+//    }
+//
+//    // FILTER by studio (auteur/dev team)
+//    @GetMapping("/studio/{studioId}")
+//    public List<GameResponse> byStudio(@PathVariable @Min(1) Long studioId) {
+//        return gameService.findByStudio(studioId).stream().map(mapper::toResponse).toList();
+//    }
+//
+//    // UPDATE
+//    @PutMapping("/{id}")
+//    public ResponseEntity<GameResponse> update(@PathVariable @Min(1) Long id,
+//                                               @Valid @RequestBody GameRequest req) {
+//        Game updated = gameService.update(
+//                id,
+//                req.title(),
+//                req.description(),
+//                req.releaseDate(),
+//                req.basePrice(),
+//                req.currency(),
+//                req.pegiRating(),
+//                req.categoryId(),
+//                req.publisherId(),
+//                req.studioId()
+//        );
+//        return ResponseEntity.ok(mapper.toResponse(updated));
+//    }
+//
+//    // DELETE
+//    @DeleteMapping("/{id}")
+//    public ResponseEntity<Void> delete(@PathVariable @Min(1) Long id) {
+//        gameService.delete(id);
+//        return ResponseEntity.noContent().build();
+//    }
+//}

@@ -22,7 +22,7 @@ public class Game {
     @Column(name = "title", nullable = false, length = 255)
     private String title;
 
-    @Column(name = "slug", length = 255)
+    @Column(name = "slug", unique = true, length = 255)
     private String slug;
 
     @Column(name = "description", columnDefinition = "TEXT")
@@ -37,9 +37,6 @@ public class Game {
     @Column(name = "currency", length = 3)
     private String currency;
 
-    @Column(name = "pegi_rating", length = 20)
-    private String pegiRating;
-
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
     private Category categorizedAs;
@@ -49,19 +46,6 @@ public class Game {
     private Publisher publishedBy;
 
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "studio_id")
-    private Studio developedBy;
+    @JoinColumn(name = "author_id")
+    private Author createdBy;
 }
-
-
-
-// a quoi sert numEdition
-// attribut genre en francais
-// auteur en francais
-// nom en francais
-
-// on va prefere utiliser Studio plutot qu'Auteur
-// on utilisera Category plutot que genre
-// on utilisera Publisher
-// on utilisera title plutot que nom
-// id en Long

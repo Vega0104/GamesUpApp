@@ -3,7 +3,7 @@ package com.gamesUP.gamesUP.repository;
 import com.gamesUP.gamesUP.model.Game;
 import com.gamesUP.gamesUP.model.Category;
 import com.gamesUP.gamesUP.model.Publisher;
-import com.gamesUP.gamesUP.model.Studio;
+import com.gamesUP.gamesUP.model.Author;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -21,7 +21,7 @@ public interface GameRepository extends JpaRepository<Game, Long> {
 
     List<Game> findByPublishedBy(Publisher publisher);
 
-    List<Game> findByDevelopedBy(Studio studio);
+    List<Game> findByCreatedBy(Author author);
 
     boolean existsBySlug(String slug);
 }

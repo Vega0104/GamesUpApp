@@ -22,10 +22,6 @@ public class Inventory {
 	@Column(name = "sku", unique = true, length = 100)
 	private String sku;
 
-	@Enumerated(EnumType.STRING)
-	@Column(name = "platform", length = 20)
-	private Platform platform;
-
 	@Column(name = "base_price", nullable = false, precision = 10, scale = 2)
 	private BigDecimal basePrice;
 
