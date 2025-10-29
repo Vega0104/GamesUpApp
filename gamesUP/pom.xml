@@ -11,8 +11,8 @@
 		<relativePath/>
 	</parent>
 
-	<groupId>com.gamesUP</groupId>
-	<artifactId>gamesUP</artifactId>
+	<groupId>com.gamesup</groupId>
+	<artifactId>gamesup</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>gamesUP</name>
 	<description>Api de site de vente de jeux de société</description>
