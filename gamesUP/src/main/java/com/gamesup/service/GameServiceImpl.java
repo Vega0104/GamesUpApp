@@ -32,7 +32,7 @@ public class GameServiceImpl implements GameService{
 
     @Override
     public Game detail(long id) {
-        return this.gameDAO.getReferenceById(id);
+        return this.gameDAO.findById(id).get();
     }
 
     @Override
@@ -58,7 +58,19 @@ public class GameServiceImpl implements GameService{
     }
 
     @Override
-    public void update(Game game) {
+    public void update(long id,String title, float price, int stock, long authorID, long categoryID, long publisherID) {
+
+        // recup le game par son id
+        Game game = gameDAO.findById(id).get();
+
+        // set sur mes champs
+        game.setTitle(title);
+        game.setPrice(price);
+        game.setStock(stock);
+        game.setAuthor(authorDAO.getReferenceById(authorID));
+        game.setCategory(categoryDAO.getReferenceById(categoryID));
+        game.setPublisher(publisherDAO.getReferenceById(publisherID));
+        // save
         this.gameDAO.save(game);
     }
 }

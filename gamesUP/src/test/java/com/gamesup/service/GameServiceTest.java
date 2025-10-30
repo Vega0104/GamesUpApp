@@ -27,6 +27,12 @@ public class GameServiceTest {
         gameDAO.deleteAll();
     }
 
+
+    @Test
+    public void detailOK(){
+        Game game = gameService.detail(41);
+    }
+
     @Test
     public void addNewGameOK(){
         gameService.add("Monopoly", 20, 2, 1, 1, 1);
@@ -38,9 +44,6 @@ public class GameServiceTest {
 
     @Test
     public void filterOK(){
-        // Attention : ce test suppose que la DB contient déjà 2 jeux
-        // Il vaudrait mieux initialiser les données dans le test
-
         gameService.add("Monopoly", 20, 2, 1, 1, 1);
         gameService.add("Code Name", 30, 2, 2, 2, 2);
         assertEquals(2, gameDAO.findAll().size());

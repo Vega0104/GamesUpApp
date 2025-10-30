@@ -44,17 +44,17 @@ public class Game {
     @Column(length = 3)
     private String currency;
 
-    @JsonManagedReference
+//    @JsonManagedReference
     @ManyToOne
     @JoinColumn
     private Category category;
 
-    @JsonManagedReference
+//    @JsonManagedReference
     @ManyToOne
     @JoinColumn
     private Publisher publisher;
 
-    @JsonManagedReference
+//    @JsonManagedReference
     @ManyToOne
     @JoinColumn
     private Author author;

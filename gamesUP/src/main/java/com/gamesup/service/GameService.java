@@ -15,6 +15,6 @@ public interface GameService {
 
     public void remove(long id);
 
-    public void update(Game game);
+    public void update(long id,String title, float price, int stock, long authorID, long categoryID, long publisherID);
 
 }
