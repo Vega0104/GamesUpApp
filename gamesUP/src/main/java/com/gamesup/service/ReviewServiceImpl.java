@@ -22,6 +22,7 @@ public class ReviewServiceImpl implements ReviewService {
     @Autowired
     private GameDAO gameDAO;
 
+
     @Override
     public void addReview(long gameID, long userID, int rating, String comment) {
 
