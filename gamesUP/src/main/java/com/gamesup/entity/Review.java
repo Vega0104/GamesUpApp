@@ -1,5 +1,6 @@
 package com.gamesup.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -27,6 +28,7 @@ public class Review {
 	@Column
 	private LocalDateTime createdAt;
 
+	@JsonIgnore
 	@ManyToOne
 	@JoinColumn
 	private User user;

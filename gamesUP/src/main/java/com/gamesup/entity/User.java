@@ -1,5 +1,6 @@
 package com.gamesup.entity;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -31,6 +32,7 @@ public class User {
     @Column(nullable = false, length = 20)
     private Role role = Role.CUSTOMER;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user")
     private List<Purchase> purchases = new ArrayList<>();
 
