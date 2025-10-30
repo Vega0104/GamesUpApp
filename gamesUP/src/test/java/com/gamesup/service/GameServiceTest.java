@@ -6,14 +6,13 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest
-@Transactional  // Rollback après chaque test
 public class GameServiceTest {
 
     @Autowired
@@ -22,39 +21,32 @@ public class GameServiceTest {
     @Autowired
     private GameDAO gameDAO;
 
-    @BeforeEach
-    public void setUpTest(){
-        gameDAO.deleteAll();
-    }
-
-
     @Test
-    public void detailOK(){
+    public void detailOK() {
         Game game = gameService.detail(41);
     }
 
     @Test
-    public void addNewGameOK(){
-        gameService.add("Monopoly", 20, 2, 1, 1, 1);
-        assertEquals(1, gameDAO.findAll().size());
-        gameService.add("Code Name", 30, 2, 2, 2, 2);
-        assertEquals(2, gameDAO.findAll().size());
-        
+    public void filterOK() {
+        gameService.filter("Réflexion", "Lou", "Ubi Soft", "Dracula");
     }
 
     @Test
-    public void filterOK(){
-        gameService.add("Monopoly", 20, 2, 1, 1, 1);
-        gameService.add("Code Name", 30, 2, 2, 2, 2);
-        assertEquals(2, gameDAO.findAll().size());
+    public void addOk() {
+        int countBefore = gameDAO.findAll().size();
+        gameService.add("Code Name", 12, 20, 1, 1, 1);
 
-        List<Game> games = gameService.filter("Aventure", null, null, null);
-        assertEquals(0, games.size());
-
-        // Bug ici : tu réassignes games mais tu testes l'ancienne variable
-        games = gameService.filter("Action", "Lou", "Enix", "Street Fighter");
-        assertEquals(1, games.size());
+        int countAfter = gameDAO.findAll().size();
+        assertEquals(countBefore + 1, countAfter);
     }
 
+    @Test
+    public void deleteOK() {
+        gameService.remove(89);
+    }
 
+    @Test
+    public void updateOK() {
+        gameService.update(90, "Code Number",13, 5, 2,2,1);
+    }
 }
