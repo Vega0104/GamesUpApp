@@ -36,9 +36,11 @@ public class User {
     @OneToMany(mappedBy = "user")
     private List<Purchase> purchases = new ArrayList<>();
 
+    @JsonIgnore
     @OneToMany(mappedBy = "user")
     private List<Review> reviews = new ArrayList<>();
 
+    @JsonIgnore
     @ManyToMany
     @JoinTable
     private List<Game> gamesWished = new ArrayList<>();
