@@ -16,7 +16,7 @@ import java.util.List;
 public class Purchase {
 
 	public enum OrderStatus {
-		PENDING,
+		BASKET,
 		PAID,
 		SHIPPED,
 		DELIVERED,
@@ -29,7 +29,7 @@ public class Purchase {
 
 	@Enumerated(EnumType.STRING)
 	@Column(nullable = false, length = 20)
-	private OrderStatus status = OrderStatus.PENDING;
+	private OrderStatus status = OrderStatus.BASKET;
 
 	@Column(nullable = false, updatable = false)
 	private LocalDateTime createdAt;
@@ -37,7 +37,7 @@ public class Purchase {
 	@Column
 	private LocalDateTime paidAt;
 
-	@Column(nullable = false)
+	@Column(nullable = true)
 	private float totalAmount;
 
 	@Column(length = 3)

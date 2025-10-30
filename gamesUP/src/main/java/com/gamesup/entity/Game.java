@@ -1,5 +1,8 @@
 package com.gamesup.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -41,24 +44,30 @@ public class Game {
     @Column(length = 3)
     private String currency;
 
+    @JsonManagedReference
     @ManyToOne
     @JoinColumn
     private Category category;
 
+    @JsonManagedReference
     @ManyToOne
     @JoinColumn
     private Publisher publisher;
 
+    @JsonManagedReference
     @ManyToOne
     @JoinColumn
     private Author author;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "game")
     private List<PurchaseLine> purchaseLines;
 
+    @JsonIgnore
     @OneToMany(mappedBy = "game")
     private List<Review> reviews;
 
+    @JsonIgnore
     @ManyToMany(mappedBy = "gamesWished")
     private List<User> usersWishing = new ArrayList<>();
 }

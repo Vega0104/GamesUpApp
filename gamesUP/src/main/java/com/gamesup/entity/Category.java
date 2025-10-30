@@ -1,5 +1,7 @@
 package com.gamesup.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -23,6 +25,7 @@ public class Category {
 	@Column(length = 100)
 	private String slug;
 
+	@JsonBackReference
 	@OneToMany(mappedBy = "category")
 	private List<Game> games;
 }

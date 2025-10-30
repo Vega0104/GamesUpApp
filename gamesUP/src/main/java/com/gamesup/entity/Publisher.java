@@ -1,5 +1,6 @@
 package com.gamesup.entity;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,6 +21,7 @@ public class Publisher {
 	@Column(nullable = false, unique = true, length = 200)
 	private String name;
 
+	@JsonBackReference
 	@OneToMany(mappedBy = "publisher")
 	private List<Game> games;
 }
