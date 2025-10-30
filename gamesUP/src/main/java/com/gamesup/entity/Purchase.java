@@ -47,7 +47,7 @@ public class Purchase {
 	@JoinColumn(nullable = false)
 	private User user;
 
-	@OneToMany(mappedBy = "purchase")
+	@OneToMany(mappedBy = "purchase", fetch = FetchType.EAGER)
 	private List<PurchaseLine> purchaseLines;
 
 	@PrePersist

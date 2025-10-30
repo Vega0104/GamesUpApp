@@ -56,7 +56,7 @@ public class PurchaseServiceImpl implements PurchaseService{
 
         // Purchaise exite
 
-        Game game = gameDAO.getReferenceById(gameID);
+        Game game = gameDAO.findById(gameID).get();
         PurchaseLine purchaseLine = new PurchaseLine();
         purchaseLine.setPurchase(purchase);
         purchaseLine.setGame(game);
@@ -76,7 +76,7 @@ public class PurchaseServiceImpl implements PurchaseService{
     @Override
     public void pay(long purchaseID) {
         // etape 1 : recuperer le purchase par son ID
-        Purchase purchase = this.purchaseDAO.getReferenceById(purchaseID);
+        Purchase purchase = this.purchaseDAO.findById(purchaseID).get();
 
         // etape 2 : modifier le statut du purchase
         purchase.setStatus(Purchase.OrderStatus.PAID);
@@ -88,7 +88,7 @@ public class PurchaseServiceImpl implements PurchaseService{
     @Override
     public float computeTotalPrice(long purchaseID) {
         // recuperer purchase par ID
-        Purchase purchase = this.purchaseDAO.getReferenceById(purchaseID);
+        Purchase purchase = this.purchaseDAO.findById(purchaseID).get();
 
         // calcul prix total en add quantiy x price des purchase line
         float totalPrice = 0;

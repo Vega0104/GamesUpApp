@@ -16,7 +16,7 @@ public class GameController {
     @Autowired
     private GameService gameService;
 
-    @PostMapping(path = "/game/update")
+    @PutMapping(path = "/game/update")
     public void update(@RequestParam long id,
                        @RequestParam(required = false) String title,
                        @RequestParam(required = false) float price,
