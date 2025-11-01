@@ -26,9 +26,10 @@ public class UserServiceTest {
     public void signupOK() {
         int countBefore = userDAO.findAll().size();
         // changé l'email a chaque test pour OK
-        userService.inscription("clientTestInscription@gmail.com", "123456");
+        userService.inscription("admin1@gmail.com", "123456");
         int countAfter = userDAO.findAll().size();
         assertEquals(countBefore + 1, countAfter);
         System.out.println("Nombre d'utilisateurs: " + countAfter);
     }
+
 }

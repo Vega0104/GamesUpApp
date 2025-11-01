@@ -2,6 +2,7 @@ package com.gamesup.controller;
 
 import com.gamesup.service.PurchaseService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -29,6 +30,7 @@ public class PurchaseController {
     }
 
     @DeleteMapping(path = "/purchase/delete")
+    @PreAuthorize("hasRole('ADMIN')")
     public void deleteBasket(@RequestParam long purchaseLineID) {
         purchaseService.removeFromBasket(purchaseLineID);
     }

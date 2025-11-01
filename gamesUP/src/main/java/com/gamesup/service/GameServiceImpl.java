@@ -58,6 +58,7 @@ public class GameServiceImpl implements GameService{
     }
 
     @Override
+//    @PreAuthorize("hasRole('ADMIN')")
     public void update(long id,String title, float price, int stock, long authorID, long categoryID, long publisherID) {
 
         // recup le game par son id

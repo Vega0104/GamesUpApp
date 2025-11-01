@@ -3,9 +3,8 @@ package com.gamesup.controller;
 import com.gamesup.entity.User;
 import com.gamesup.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 public class UserController {
@@ -20,5 +19,12 @@ public class UserController {
     @PostMapping(path = "/signup")
     public void signup(String email, String password) {
         userService.inscription(email,password);
+    }
+
+    @PutMapping("/role")
+    @PreAuthorize("hasRole('ADMIN')")
+    public void updateUserRole(@RequestParam long userID, @RequestParam String role) {
+        User.Role newRole = User.Role.valueOf(role);
+        userService.updateRole(userID, newRole);
     }
 }

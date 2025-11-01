@@ -6,6 +6,7 @@ import com.gamesup.service.GameService;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,6 +18,7 @@ public class GameController {
     private GameService gameService;
 
     @PutMapping(path = "/game/update")
+    @PreAuthorize("hasRole('ADMIN')")
     public void update(@RequestParam long id,
                        @RequestParam(required = false) String title,
                        @RequestParam(required = false) float price,
@@ -28,6 +30,7 @@ public class GameController {
     }
 
     @DeleteMapping(path = "/game/delete")
+    @PreAuthorize("hasRole('ADMIN')")
     public void delete(@RequestParam long id) {
         gameService.remove(id);
     }
@@ -39,7 +42,9 @@ public class GameController {
         return game;
     }
 
+
     @PostMapping(path = "/game/add")
+    @PreAuthorize("hasRole('ADMIN')")
     public void add( @RequestParam(required = false) String title,
                      @RequestParam(required = false) float price,
                      @RequestParam(required = false) int stock,

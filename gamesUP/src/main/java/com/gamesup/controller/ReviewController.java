@@ -3,6 +3,7 @@ package com.gamesup.controller;
 import com.gamesup.entity.Review;
 import com.gamesup.service.ReviewService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,11 +15,13 @@ public class ReviewController {
     ReviewService reviewService;
 
     @DeleteMapping(path = "/review/delete")
+    @PreAuthorize("hasRole('ADMIN')")
     public void deleteReview(long id) {
         reviewService.remove(id);
     }
 
     @GetMapping(path = "/review/list")
+    @PreAuthorize("hasRole('ADMIN')")
     public List<Review> list() {
         return reviewService.list();
     }
