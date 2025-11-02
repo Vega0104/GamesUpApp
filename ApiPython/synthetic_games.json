@@ -1,0 +1,1937 @@
+[
+  {
+    "game_id": 200,
+    "name": "Gloomhaven",
+    "categories": [
+      "Party Game",
+      "Abstract"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Area Control"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 60,
+    "complexity": 2.4,
+    "year_published": 2017,
+    "average_rating": 4.4
+  },
+  {
+    "game_id": 201,
+    "name": "Terraforming Mars",
+    "categories": [
+      "Card Game",
+      "Strategy"
+    ],
+    "mechanics": [
+      "Trading",
+      "Variable Player Powers",
+      "Hand Management"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 60,
+    "complexity": 2.4,
+    "year_published": 2016,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 202,
+    "name": "Brass: Birmingham",
+    "categories": [
+      "Puzzle",
+      "Fantasy",
+      "Strategy"
+    ],
+    "mechanics": [
+      "Set Collection",
+      "Card Drafting",
+      "Grid Movement",
+      "Deck Building"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 30,
+    "complexity": 2.3,
+    "year_published": 2018,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 203,
+    "name": "Wingspan",
+    "categories": [
+      "Family",
+      "Card Game",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Deck Building"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 45,
+    "complexity": 2.9,
+    "year_published": 2019,
+    "average_rating": 4.1
+  },
+  {
+    "game_id": 204,
+    "name": "Scythe",
+    "categories": [
+      "Fantasy",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Set Collection",
+      "Grid Movement"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 120,
+    "complexity": 4.1,
+    "year_published": 2016,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 205,
+    "name": "Azul",
+    "categories": [
+      "Sci-Fi",
+      "Party Game",
+      "Strategy"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Area Control",
+      "Deck Building",
+      "Worker Placement"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.1,
+    "year_published": 2017,
+    "average_rating": 4.3
+  },
+  {
+    "game_id": 206,
+    "name": "Splendor",
+    "categories": [
+      "Adventure",
+      "Card Game"
+    ],
+    "mechanics": [
+      "Tile Placement",
+      "Route Building"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.9,
+    "year_published": 2014,
+    "average_rating": 4.1
+  },
+  {
+    "game_id": 207,
+    "name": "7 Wonders",
+    "categories": [
+      "War Game",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Action Points"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.9,
+    "year_published": 2010,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 208,
+    "name": "Ticket to Ride",
+    "categories": [
+      "Party Game",
+      "Puzzle",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Pattern Building",
+      "Route Building",
+      "Action Points"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 30,
+    "complexity": 3.9,
+    "year_published": 2004,
+    "average_rating": 3.8
+  },
+  {
+    "game_id": 209,
+    "name": "Catan",
+    "categories": [
+      "Cooperative",
+      "Sci-Fi",
+      "Economic"
+    ],
+    "mechanics": [
+      "Variable Player Powers",
+      "Hand Management",
+      "Tile Placement",
+      "Card Drafting"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.2,
+    "year_published": 1995,
+    "average_rating": 4.1
+  },
+  {
+    "game_id": 210,
+    "name": "Pandemic",
+    "categories": [
+      "Party Game",
+      "Economic",
+      "Sci-Fi"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Variable Player Powers",
+      "Route Building"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.1,
+    "year_published": 2008,
+    "average_rating": 4.1
+  },
+  {
+    "game_id": 211,
+    "name": "Carcassonne",
+    "categories": [
+      "War Game",
+      "Family"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.4,
+    "year_published": 2000,
+    "average_rating": 4.5
+  },
+  {
+    "game_id": 212,
+    "name": "Dominion",
+    "categories": [
+      "Abstract",
+      "Sci-Fi",
+      "War Game"
+    ],
+    "mechanics": [
+      "Trading",
+      "Worker Placement"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 30,
+    "complexity": 3.9,
+    "year_published": 2008,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 213,
+    "name": "Codenames",
+    "categories": [
+      "Card Game",
+      "Thematic",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Worker Placement",
+      "Pattern Building"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 90,
+    "complexity": 4.0,
+    "year_published": 2015,
+    "average_rating": 4.5
+  },
+  {
+    "game_id": 214,
+    "name": "King of Tokyo",
+    "categories": [
+      "Party Game",
+      "Cooperative",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Set Collection",
+      "Engine Building",
+      "Trading",
+      "Deck Building"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.5,
+    "year_published": 2011,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 215,
+    "name": "Spirit Island",
+    "categories": [
+      "Adventure",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Engine Building"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.7,
+    "year_published": 2017,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 216,
+    "name": "Root",
+    "categories": [
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Engine Building"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 90,
+    "complexity": 4.2,
+    "year_published": 2018,
+    "average_rating": 4.4
+  },
+  {
+    "game_id": 217,
+    "name": "Everdell",
+    "categories": [
+      "Economic",
+      "Family"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Worker Placement"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 45,
+    "complexity": 4.1,
+    "year_published": 2018,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 218,
+    "name": "Clank!",
+    "categories": [
+      "Dice Game",
+      "Card Game"
+    ],
+    "mechanics": [
+      "Trading",
+      "Card Drafting",
+      "Dice Rolling"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 60,
+    "complexity": 2.2,
+    "year_published": 2016,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 219,
+    "name": "Viticulture",
+    "categories": [
+      "War Game",
+      "Adventure"
+    ],
+    "mechanics": [
+      "Trading",
+      "Area Control",
+      "Variable Player Powers",
+      "Action Points"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.3,
+    "year_published": 2013,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 220,
+    "name": "Ancient Kingdom 20",
+    "categories": [
+      "Family",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Set Collection",
+      "Card Drafting"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.0,
+    "year_published": 2016,
+    "average_rating": 4.6
+  },
+  {
+    "game_id": 221,
+    "name": "Ancient Wars 21",
+    "categories": [
+      "Thematic",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Card Drafting"
+    ],
+    "min_players": 3,
+    "max_players": 4,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.7,
+    "year_published": 2013,
+    "average_rating": 3.2
+  },
+  {
+    "game_id": 222,
+    "name": "Royal Kingdom 22",
+    "categories": [
+      "Puzzle",
+      "Strategy"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Variable Player Powers"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.7,
+    "year_published": 2013,
+    "average_rating": 3.4
+  },
+  {
+    "game_id": 223,
+    "name": "Lost Wars 23",
+    "categories": [
+      "Strategy",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Variable Player Powers",
+      "Dice Rolling"
+    ],
+    "min_players": 1,
+    "max_players": 7,
+    "avg_playtime_minutes": 120,
+    "complexity": 3.2,
+    "year_published": 2018,
+    "average_rating": 3.8
+  },
+  {
+    "game_id": 224,
+    "name": "Royal Empire 24",
+    "categories": [
+      "Cooperative",
+      "Fantasy",
+      "Sci-Fi"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Area Control"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 45,
+    "complexity": 2.7,
+    "year_published": 2018,
+    "average_rating": 3.8
+  },
+  {
+    "game_id": 225,
+    "name": "Royal Journey 25",
+    "categories": [
+      "Economic",
+      "Strategy",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Area Control",
+      "Route Building",
+      "Grid Movement",
+      "Variable Player Powers"
+    ],
+    "min_players": 3,
+    "max_players": 7,
+    "avg_playtime_minutes": 30,
+    "complexity": 4.5,
+    "year_published": 2013,
+    "average_rating": 3.4
+  },
+  {
+    "game_id": 226,
+    "name": "Dark Journey 26",
+    "categories": [
+      "Thematic",
+      "Fantasy",
+      "Cooperative"
+    ],
+    "mechanics": [
+      "Trading",
+      "Dice Rolling",
+      "Deck Building",
+      "Area Control"
+    ],
+    "min_players": 3,
+    "max_players": 7,
+    "avg_playtime_minutes": 60,
+    "complexity": 1.9,
+    "year_published": 2020,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 227,
+    "name": "Royal Chronicles 27",
+    "categories": [
+      "Economic",
+      "Dice Game",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Variable Player Powers",
+      "Hand Management"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.2,
+    "year_published": 2012,
+    "average_rating": 3.7
+  },
+  {
+    "game_id": 228,
+    "name": "Royal Quest 28",
+    "categories": [
+      "Card Game",
+      "Cooperative",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Dice Rolling",
+      "Pattern Building"
+    ],
+    "min_players": 2,
+    "max_players": 7,
+    "avg_playtime_minutes": 90,
+    "complexity": 3.7,
+    "year_published": 2014,
+    "average_rating": 3.8
+  },
+  {
+    "game_id": 229,
+    "name": "Royal Chronicles 29",
+    "categories": [
+      "Adventure",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Action Points"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.3,
+    "year_published": 2018,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 230,
+    "name": "Royal Empire 30",
+    "categories": [
+      "Puzzle",
+      "Family",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Trading",
+      "Card Drafting",
+      "Deck Building",
+      "Variable Player Powers"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 30,
+    "complexity": 3.9,
+    "year_published": 2015,
+    "average_rating": 3.1
+  },
+  {
+    "game_id": 231,
+    "name": "Ancient Wars 31",
+    "categories": [
+      "Cooperative",
+      "Economic"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Pattern Building",
+      "Deck Building"
+    ],
+    "min_players": 3,
+    "max_players": 5,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.8,
+    "year_published": 2019,
+    "average_rating": 3.0
+  },
+  {
+    "game_id": 232,
+    "name": "Mystic Chronicles 32",
+    "categories": [
+      "Fantasy",
+      "War Game"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Grid Movement",
+      "Engine Building",
+      "Set Collection"
+    ],
+    "min_players": 1,
+    "max_players": 6,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.9,
+    "year_published": 2019,
+    "average_rating": 4.1
+  },
+  {
+    "game_id": 233,
+    "name": "Epic Empire 33",
+    "categories": [
+      "Strategy",
+      "Abstract",
+      "Adventure"
+    ],
+    "mechanics": [
+      "Worker Placement",
+      "Area Control"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 30,
+    "complexity": 1.7,
+    "year_published": 2010,
+    "average_rating": 3.3
+  },
+  {
+    "game_id": 234,
+    "name": "Mystic Wars 34",
+    "categories": [
+      "Card Game",
+      "Dice Game",
+      "Sci-Fi"
+    ],
+    "mechanics": [
+      "Tile Placement",
+      "Card Drafting",
+      "Trading",
+      "Variable Player Powers"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.3,
+    "year_published": 2010,
+    "average_rating": 4.4
+  },
+  {
+    "game_id": 235,
+    "name": "Epic Chronicles 35",
+    "categories": [
+      "Family",
+      "Adventure"
+    ],
+    "mechanics": [
+      "Trading",
+      "Tile Placement",
+      "Variable Player Powers",
+      "Area Control"
+    ],
+    "min_players": 1,
+    "max_players": 6,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.6,
+    "year_published": 2016,
+    "average_rating": 4.3
+  },
+  {
+    "game_id": 236,
+    "name": "Mystic Chronicles 36",
+    "categories": [
+      "Thematic",
+      "Abstract",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Area Control",
+      "Engine Building",
+      "Variable Player Powers"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 30,
+    "complexity": 3.3,
+    "year_published": 2021,
+    "average_rating": 3.2
+  },
+  {
+    "game_id": 237,
+    "name": "Epic Chronicles 37",
+    "categories": [
+      "Strategy",
+      "Thematic",
+      "Cooperative"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Variable Player Powers",
+      "Engine Building",
+      "Card Drafting"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 30,
+    "complexity": 2.7,
+    "year_published": 2010,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 238,
+    "name": "Ancient Quest 38",
+    "categories": [
+      "Fantasy",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Hand Management"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 120,
+    "complexity": 3.1,
+    "year_published": 2014,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 239,
+    "name": "Epic Kingdom 39",
+    "categories": [
+      "Card Game",
+      "Economic"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Worker Placement",
+      "Area Control"
+    ],
+    "min_players": 2,
+    "max_players": 7,
+    "avg_playtime_minutes": 30,
+    "complexity": 4.1,
+    "year_published": 2019,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 240,
+    "name": "Mystic Quest 40",
+    "categories": [
+      "Deduction",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Area Control",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.3,
+    "year_published": 2022,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 241,
+    "name": "Lost Quest 41",
+    "categories": [
+      "Family",
+      "Thematic",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Tile Placement"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.0,
+    "year_published": 2019,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 242,
+    "name": "Epic Chronicles 42",
+    "categories": [
+      "Adventure",
+      "Economic"
+    ],
+    "mechanics": [
+      "Worker Placement",
+      "Area Control"
+    ],
+    "min_players": 3,
+    "max_players": 5,
+    "avg_playtime_minutes": 60,
+    "complexity": 1.7,
+    "year_published": 2018,
+    "average_rating": 3.4
+  },
+  {
+    "game_id": 243,
+    "name": "Dark Chronicles 43",
+    "categories": [
+      "Sci-Fi",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Set Collection",
+      "Area Control",
+      "Grid Movement"
+    ],
+    "min_players": 3,
+    "max_players": 4,
+    "avg_playtime_minutes": 45,
+    "complexity": 1.6,
+    "year_published": 2018,
+    "average_rating": 3.3
+  },
+  {
+    "game_id": 244,
+    "name": "Dark Chronicles 44",
+    "categories": [
+      "War Game",
+      "Abstract",
+      "Family"
+    ],
+    "mechanics": [
+      "Variable Player Powers",
+      "Grid Movement",
+      "Set Collection",
+      "Deck Building"
+    ],
+    "min_players": 2,
+    "max_players": 8,
+    "avg_playtime_minutes": 120,
+    "complexity": 4.3,
+    "year_published": 2020,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 245,
+    "name": "Royal Chronicles 45",
+    "categories": [
+      "War Game",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Tile Placement",
+      "Route Building",
+      "Set Collection"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 120,
+    "complexity": 1.8,
+    "year_published": 2011,
+    "average_rating": 3.0
+  },
+  {
+    "game_id": 246,
+    "name": "Ancient Kingdom 46",
+    "categories": [
+      "Card Game",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Set Collection",
+      "Area Control",
+      "Deck Building"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.2,
+    "year_published": 2018,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 247,
+    "name": "Dark Journey 47",
+    "categories": [
+      "Economic",
+      "Adventure",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Tile Placement",
+      "Variable Player Powers",
+      "Deck Building",
+      "Area Control"
+    ],
+    "min_players": 3,
+    "max_players": 5,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.5,
+    "year_published": 2014,
+    "average_rating": 3.8
+  },
+  {
+    "game_id": 248,
+    "name": "Epic Empire 48",
+    "categories": [
+      "War Game",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Engine Building"
+    ],
+    "min_players": 2,
+    "max_players": 7,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.9,
+    "year_published": 2022,
+    "average_rating": 3.7
+  },
+  {
+    "game_id": 249,
+    "name": "Mystic Quest 49",
+    "categories": [
+      "Deduction",
+      "Strategy",
+      "Economic"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Deck Building"
+    ],
+    "min_players": 3,
+    "max_players": 6,
+    "avg_playtime_minutes": 120,
+    "complexity": 3.4,
+    "year_published": 2022,
+    "average_rating": 4.6
+  },
+  {
+    "game_id": 250,
+    "name": "Ancient Kingdom 50",
+    "categories": [
+      "Family",
+      "Strategy"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Card Drafting",
+      "Action Points",
+      "Engine Building"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 120,
+    "complexity": 1.8,
+    "year_published": 2023,
+    "average_rating": 3.1
+  },
+  {
+    "game_id": 251,
+    "name": "Epic Chronicles 51",
+    "categories": [
+      "Dice Game",
+      "Family"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Set Collection",
+      "Variable Player Powers",
+      "Route Building"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.6,
+    "year_published": 2013,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 252,
+    "name": "Ancient Wars 52",
+    "categories": [
+      "Adventure",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Card Drafting",
+      "Dice Rolling"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.4,
+    "year_published": 2023,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 253,
+    "name": "Mystic Chronicles 53",
+    "categories": [
+      "Fantasy",
+      "Economic"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Dice Rolling",
+      "Worker Placement"
+    ],
+    "min_players": 3,
+    "max_players": 6,
+    "avg_playtime_minutes": 30,
+    "complexity": 3.0,
+    "year_published": 2021,
+    "average_rating": 4.3
+  },
+  {
+    "game_id": 254,
+    "name": "Lost Quest 54",
+    "categories": [
+      "Adventure",
+      "Economic"
+    ],
+    "mechanics": [
+      "Area Control",
+      "Route Building",
+      "Card Drafting"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.2,
+    "year_published": 2014,
+    "average_rating": 3.1
+  },
+  {
+    "game_id": 255,
+    "name": "Lost Wars 55",
+    "categories": [
+      "Puzzle",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Hand Management",
+      "Tile Placement",
+      "Dice Rolling"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 120,
+    "complexity": 4.0,
+    "year_published": 2015,
+    "average_rating": 3.6
+  },
+  {
+    "game_id": 256,
+    "name": "Ancient Journey 56",
+    "categories": [
+      "Puzzle",
+      "Fantasy",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Area Control",
+      "Card Drafting",
+      "Tile Placement"
+    ],
+    "min_players": 2,
+    "max_players": 7,
+    "avg_playtime_minutes": 30,
+    "complexity": 2.3,
+    "year_published": 2021,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 257,
+    "name": "Ancient Wars 57",
+    "categories": [
+      "Abstract",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Dice Rolling",
+      "Action Points",
+      "Hand Management"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 45,
+    "complexity": 3.9,
+    "year_published": 2022,
+    "average_rating": 3.7
+  },
+  {
+    "game_id": 258,
+    "name": "Epic Chronicles 58",
+    "categories": [
+      "Party Game",
+      "Deduction",
+      "War Game"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Set Collection",
+      "Grid Movement",
+      "Trading"
+    ],
+    "min_players": 2,
+    "max_players": 7,
+    "avg_playtime_minutes": 30,
+    "complexity": 4.1,
+    "year_published": 2024,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 259,
+    "name": "Royal Quest 59",
+    "categories": [
+      "Dice Game",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Route Building",
+      "Trading"
+    ],
+    "min_players": 1,
+    "max_players": 7,
+    "avg_playtime_minutes": 120,
+    "complexity": 1.7,
+    "year_published": 2015,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 260,
+    "name": "Royal Chronicles 60",
+    "categories": [
+      "Economic",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Hand Management",
+      "Area Control",
+      "Trading"
+    ],
+    "min_players": 3,
+    "max_players": 6,
+    "avg_playtime_minutes": 30,
+    "complexity": 3.8,
+    "year_published": 2022,
+    "average_rating": 3.8
+  },
+  {
+    "game_id": 261,
+    "name": "Mystic Chronicles 61",
+    "categories": [
+      "Fantasy",
+      "Deduction",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Deck Building",
+      "Area Control"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.2,
+    "year_published": 2020,
+    "average_rating": 4.4
+  },
+  {
+    "game_id": 262,
+    "name": "Mystic Journey 62",
+    "categories": [
+      "Adventure",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Variable Player Powers",
+      "Trading",
+      "Set Collection",
+      "Engine Building"
+    ],
+    "min_players": 3,
+    "max_players": 5,
+    "avg_playtime_minutes": 120,
+    "complexity": 3.1,
+    "year_published": 2014,
+    "average_rating": 4.3
+  },
+  {
+    "game_id": 263,
+    "name": "Lost Empire 63",
+    "categories": [
+      "Adventure",
+      "Thematic",
+      "Abstract"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Pattern Building",
+      "Variable Player Powers"
+    ],
+    "min_players": 3,
+    "max_players": 6,
+    "avg_playtime_minutes": 45,
+    "complexity": 4.5,
+    "year_published": 2023,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 264,
+    "name": "Epic Journey 64",
+    "categories": [
+      "Party Game",
+      "War Game"
+    ],
+    "mechanics": [
+      "Pattern Building",
+      "Hand Management",
+      "Action Points",
+      "Route Building"
+    ],
+    "min_players": 3,
+    "max_players": 5,
+    "avg_playtime_minutes": 60,
+    "complexity": 2.6,
+    "year_published": 2019,
+    "average_rating": 3.1
+  },
+  {
+    "game_id": 265,
+    "name": "Epic Journey 65",
+    "categories": [
+      "Fantasy",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Pattern Building",
+      "Dice Rolling"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 45,
+    "complexity": 1.8,
+    "year_published": 2013,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 266,
+    "name": "Epic Chronicles 66",
+    "categories": [
+      "Strategy",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Tile Placement",
+      "Trading",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.2,
+    "year_published": 2022,
+    "average_rating": 4.1
+  },
+  {
+    "game_id": 267,
+    "name": "Royal Wars 67",
+    "categories": [
+      "Card Game",
+      "Sci-Fi",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Area Control"
+    ],
+    "min_players": 3,
+    "max_players": 4,
+    "avg_playtime_minutes": 30,
+    "complexity": 2.3,
+    "year_published": 2016,
+    "average_rating": 3.4
+  },
+  {
+    "game_id": 268,
+    "name": "Dark Kingdom 68",
+    "categories": [
+      "Party Game",
+      "Cooperative",
+      "Sci-Fi"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Hand Management",
+      "Pattern Building"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 45,
+    "complexity": 1.8,
+    "year_published": 2016,
+    "average_rating": 3.4
+  },
+  {
+    "game_id": 269,
+    "name": "Ancient Journey 69",
+    "categories": [
+      "Deduction",
+      "Dice Game",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Tile Placement",
+      "Deck Building"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 45,
+    "complexity": 4.3,
+    "year_published": 2019,
+    "average_rating": 4.4
+  },
+  {
+    "game_id": 270,
+    "name": "Dark Wars 70",
+    "categories": [
+      "Sci-Fi",
+      "Economic"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Action Points",
+      "Variable Player Powers"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.6,
+    "year_published": 2021,
+    "average_rating": 4.6
+  },
+  {
+    "game_id": 271,
+    "name": "Dark Empire 71",
+    "categories": [
+      "Abstract",
+      "War Game"
+    ],
+    "mechanics": [
+      "Tile Placement",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.1,
+    "year_published": 2024,
+    "average_rating": 4.4
+  },
+  {
+    "game_id": 272,
+    "name": "Ancient Kingdom 72",
+    "categories": [
+      "Cooperative",
+      "Abstract",
+      "Economic"
+    ],
+    "mechanics": [
+      "Trading",
+      "Pattern Building",
+      "Card Drafting",
+      "Tile Placement"
+    ],
+    "min_players": 3,
+    "max_players": 5,
+    "avg_playtime_minutes": 60,
+    "complexity": 1.6,
+    "year_published": 2024,
+    "average_rating": 3.6
+  },
+  {
+    "game_id": 273,
+    "name": "Epic Empire 73",
+    "categories": [
+      "Dice Game",
+      "Sci-Fi",
+      "Deduction"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Pattern Building"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 60,
+    "complexity": 2.2,
+    "year_published": 2019,
+    "average_rating": 4.3
+  },
+  {
+    "game_id": 274,
+    "name": "Royal Journey 74",
+    "categories": [
+      "Economic",
+      "Cooperative",
+      "Puzzle"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Variable Player Powers"
+    ],
+    "min_players": 1,
+    "max_players": 6,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.1,
+    "year_published": 2010,
+    "average_rating": 3.5
+  },
+  {
+    "game_id": 275,
+    "name": "Dark Quest 75",
+    "categories": [
+      "War Game",
+      "Strategy",
+      "Economic"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Route Building",
+      "Trading"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.1,
+    "year_published": 2019,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 276,
+    "name": "Epic Chronicles 76",
+    "categories": [
+      "Party Game",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Engine Building"
+    ],
+    "min_players": 1,
+    "max_players": 6,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.8,
+    "year_published": 2011,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 277,
+    "name": "Lost Kingdom 77",
+    "categories": [
+      "Abstract",
+      "Thematic",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Variable Player Powers",
+      "Pattern Building",
+      "Engine Building",
+      "Action Points"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 60,
+    "complexity": 3.4,
+    "year_published": 2024,
+    "average_rating": 4.3
+  },
+  {
+    "game_id": 278,
+    "name": "Dark Chronicles 78",
+    "categories": [
+      "Strategy",
+      "Adventure",
+      "Card Game"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Route Building",
+      "Tile Placement",
+      "Hand Management"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.4,
+    "year_published": 2020,
+    "average_rating": 3.3
+  },
+  {
+    "game_id": 279,
+    "name": "Mystic Quest 79",
+    "categories": [
+      "Card Game",
+      "Adventure"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Variable Player Powers",
+      "Card Drafting",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 60,
+    "complexity": 2.1,
+    "year_published": 2012,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 280,
+    "name": "Dark Chronicles 80",
+    "categories": [
+      "Family",
+      "Fantasy",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Area Control",
+      "Variable Player Powers"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 30,
+    "complexity": 3.6,
+    "year_published": 2024,
+    "average_rating": 4.2
+  },
+  {
+    "game_id": 281,
+    "name": "Dark Wars 81",
+    "categories": [
+      "Abstract",
+      "Party Game"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Trading",
+      "Set Collection"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 45,
+    "complexity": 1.8,
+    "year_published": 2020,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 282,
+    "name": "Lost Wars 82",
+    "categories": [
+      "Cooperative",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Tile Placement",
+      "Hand Management",
+      "Pattern Building",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 90,
+    "complexity": 1.7,
+    "year_published": 2012,
+    "average_rating": 4.7
+  },
+  {
+    "game_id": 283,
+    "name": "Epic Chronicles 83",
+    "categories": [
+      "Sci-Fi",
+      "Fantasy"
+    ],
+    "mechanics": [
+      "Deck Building",
+      "Action Points"
+    ],
+    "min_players": 1,
+    "max_players": 5,
+    "avg_playtime_minutes": 90,
+    "complexity": 4.3,
+    "year_published": 2019,
+    "average_rating": 4.4
+  },
+  {
+    "game_id": 284,
+    "name": "Royal Chronicles 84",
+    "categories": [
+      "Deduction",
+      "Puzzle",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Deck Building"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 45,
+    "complexity": 2.7,
+    "year_published": 2015,
+    "average_rating": 4.5
+  },
+  {
+    "game_id": 285,
+    "name": "Lost Wars 85",
+    "categories": [
+      "Card Game",
+      "Sci-Fi"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Card Drafting",
+      "Deck Building"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.5,
+    "year_published": 2015,
+    "average_rating": 4.0
+  },
+  {
+    "game_id": 286,
+    "name": "Royal Kingdom 86",
+    "categories": [
+      "Sci-Fi",
+      "Economic"
+    ],
+    "mechanics": [
+      "Card Drafting",
+      "Worker Placement",
+      "Variable Player Powers"
+    ],
+    "min_players": 3,
+    "max_players": 7,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.7,
+    "year_published": 2010,
+    "average_rating": 3.4
+  },
+  {
+    "game_id": 287,
+    "name": "Ancient Quest 87",
+    "categories": [
+      "Dice Game",
+      "Card Game"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Deck Building",
+      "Set Collection",
+      "Area Control"
+    ],
+    "min_players": 3,
+    "max_players": 7,
+    "avg_playtime_minutes": 60,
+    "complexity": 4.4,
+    "year_published": 2022,
+    "average_rating": 3.3
+  },
+  {
+    "game_id": 288,
+    "name": "Dark Journey 88",
+    "categories": [
+      "Abstract",
+      "Party Game",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Deck Building"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 45,
+    "complexity": 2.1,
+    "year_published": 2021,
+    "average_rating": 3.5
+  },
+  {
+    "game_id": 289,
+    "name": "Epic Journey 89",
+    "categories": [
+      "Deduction",
+      "Sci-Fi"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Action Points",
+      "Pattern Building"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 30,
+    "complexity": 2.8,
+    "year_published": 2020,
+    "average_rating": 4.6
+  },
+  {
+    "game_id": 290,
+    "name": "Royal Empire 90",
+    "categories": [
+      "Cooperative",
+      "Fantasy",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Variable Player Powers",
+      "Trading",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 4,
+    "avg_playtime_minutes": 120,
+    "complexity": 2.8,
+    "year_published": 2019,
+    "average_rating": 3.7
+  },
+  {
+    "game_id": 291,
+    "name": "Ancient Empire 91",
+    "categories": [
+      "Cooperative",
+      "War Game"
+    ],
+    "mechanics": [
+      "Trading",
+      "Tile Placement",
+      "Set Collection",
+      "Pattern Building"
+    ],
+    "min_players": 2,
+    "max_players": 6,
+    "avg_playtime_minutes": 30,
+    "complexity": 4.2,
+    "year_published": 2017,
+    "average_rating": 3.8
+  },
+  {
+    "game_id": 292,
+    "name": "Epic Chronicles 92",
+    "categories": [
+      "Sci-Fi",
+      "Thematic"
+    ],
+    "mechanics": [
+      "Hand Management",
+      "Area Control"
+    ],
+    "min_players": 1,
+    "max_players": 8,
+    "avg_playtime_minutes": 60,
+    "complexity": 4.2,
+    "year_published": 2018,
+    "average_rating": 4.6
+  },
+  {
+    "game_id": 293,
+    "name": "Lost Quest 93",
+    "categories": [
+      "Card Game",
+      "Abstract"
+    ],
+    "mechanics": [
+      "Route Building",
+      "Variable Player Powers",
+      "Engine Building"
+    ],
+    "min_players": 2,
+    "max_players": 5,
+    "avg_playtime_minutes": 45,
+    "complexity": 2.7,
+    "year_published": 2015,
+    "average_rating": 3.9
+  },
+  {
+    "game_id": 294,
+    "name": "Mystic Kingdom 94",
+    "categories": [
+      "Puzzle",
+      "Card Game",
+      "Abstract"
+    ],
+    "mechanics": [
+      "Set Collection",
+      "Worker Placement"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 90,
+    "complexity": 4.0,
+    "year_published": 2021,
+    "average_rating": 3.2
+  },
+  {
+    "game_id": 295,
+    "name": "Royal Empire 95",
+    "categories": [
+      "Adventure",
+      "Strategy"
+    ],
+    "mechanics": [
+      "Engine Building",
+      "Deck Building",
+      "Hand Management"
+    ],
+    "min_players": 2,
+    "max_players": 4,
+    "avg_playtime_minutes": 90,
+    "complexity": 2.2,
+    "year_published": 2012,
+    "average_rating": 4.3
+  },
+  {
+    "game_id": 296,
+    "name": "Epic Quest 96",
+    "categories": [
+      "Family",
+      "Dice Game"
+    ],
+    "mechanics": [
+      "Action Points",
+      "Deck Building"
+    ],
+    "min_players": 3,
+    "max_players": 5,
+    "avg_playtime_minutes": 90,
+    "complexity": 1.6,
+    "year_published": 2011,
+    "average_rating": 3.5
+  },
+  {
+    "game_id": 297,
+    "name": "Dark Kingdom 97",
+    "categories": [
+      "Economic",
+      "Adventure"
+    ],
+    "mechanics": [
+      "Grid Movement",
+      "Trading",
+      "Route Building"
+    ],
+    "min_players": 3,
+    "max_players": 8,
+    "avg_playtime_minutes": 60,
+    "complexity": 2.8,
+    "year_published": 2014,
+    "average_rating": 3.6
+  },
+  {
+    "game_id": 298,
+    "name": "Ancient Kingdom 98",
+    "categories": [
+      "Family",
+      "Strategy"
+    ],
+    "mechanics": [
+      "Trading",
+      "Grid Movement"
+    ],
+    "min_players": 1,
+    "max_players": 7,
+    "avg_playtime_minutes": 90,
+    "complexity": 4.2,
+    "year_published": 2013,
+    "average_rating": 4.1
+  },
+  {
+    "game_id": 299,
+    "name": "Dark Wars 99",
+    "categories": [
+      "Dice Game",
+      "Fantasy",
+      "Economic"
+    ],
+    "mechanics": [
+      "Dice Rolling",
+      "Card Drafting"
+    ],
+    "min_players": 3,
+    "max_players": 7,
+    "avg_playtime_minutes": 60,
+    "complexity": 1.8,
+    "year_published": 2017,
+    "average_rating": 4.3
+  }
+]
