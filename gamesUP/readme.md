@@ -1,6 +1,6 @@
 # GamesUp API
 
-API REST pour la gestion d'un catalogue de jeux vidéo.
+API REST pour la gestion d'un catalogue de jeux de société.
 
 ## Technologies
 
