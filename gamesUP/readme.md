@@ -8,7 +8,7 @@ API REST pour la gestion d'un catalogue de jeux de société.
 - Spring Boot
 - Spring Data JPA
 - Lombok
-- MySQL/PostgreSQL
+- H2
 
 ## Installation
 
