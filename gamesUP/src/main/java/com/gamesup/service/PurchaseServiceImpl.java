@@ -44,7 +44,7 @@ public class PurchaseServiceImpl implements PurchaseService{
         List<Purchase> purchases = purchaseDAO.findByUserIdAndStatusOrderByCreatedAtDesc(userID,Purchase.OrderStatus.BASKET);
         Purchase purchase;
         if (purchases.size() > 0) {
-            purchase = purchases.getFirst();
+            purchase = purchases.get(0);
         } else {
             purchase = new Purchase();
             purchase.setUser(user);

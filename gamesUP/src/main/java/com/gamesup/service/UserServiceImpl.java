@@ -7,48 +7,92 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+//@Service
+//public class UserServiceImpl implements UserService{
+//
+//    @Autowired
+//    private UserDAO userDAO;
+//
+//    @Autowired
+//    private PasswordEncoder passwordEncoder;
+//
+//    @Override
+//    public User connexion(String email, String password) {
+//        return this.userDAO.findByEmailAndAndPassword(email,password);
+//    }
+//
+//    @Override
+//    public void inscription(String email, String pwd) {
+//        User user = new User();
+//        user.setEmail(email);
+//        user.setPassword(passwordEncoder.encode(pwd)); // ← Garde seulement cette ligne
+//        user.setRole(User.Role.CUSTOMER);
+//        this.userDAO.save(user);
+//    }
+//
+//    @Override
+//    public void updateRole(long userID, User.Role newRole) {
+//        User user = this.userDAO.findById(userID).orElseThrow();
+//        user.setRole(newRole);
+//        this.userDAO.save(user);
+//    }
+//
+//
+//    @PostConstruct
+//    public void createDefaultAdmin() {
+//        if (!userDAO.findByEmail("admin@gamesup.com").isPresent()) {
+//            User admin = new User();
+//            admin.setEmail("admin@gamesup.com");
+//            admin.setPassword(passwordEncoder.encode("123456")); // ← Garde seulement cette ligne
+//            admin.setRole(User.Role.ADMIN);
+//            userDAO.save(admin);
+//            System.out.println("Admin par défaut créé : admin@gamesup.com");
+//        }
+//    }
+//
+//
+//}
+
 @Service
-public class UserServiceImpl implements UserService{
+public class UserServiceImpl implements UserService {
 
-    @Autowired
-    private UserDAO userDAO;
-
-    @Autowired
-    private PasswordEncoder passwordEncoder;
+    @Autowired private UserDAO userDAO;
+    @Autowired private PasswordEncoder passwordEncoder;
 
     @Override
-    public User connexion(String email, String password) {
-        return this.userDAO.findByEmailAndAndPassword(email,password);
+    public User connexion(String email, String rawPassword) {
+        return userDAO.findByEmail(email)
+                .filter(u -> passwordEncoder.matches(rawPassword, u.getPassword()))
+                .orElse(null);
     }
 
     @Override
     public void inscription(String email, String pwd) {
         User user = new User();
         user.setEmail(email);
-        user.setPassword(passwordEncoder.encode(pwd)); // ← Garde seulement cette ligne
+        user.setPassword(passwordEncoder.encode(pwd));
         user.setRole(User.Role.CUSTOMER);
-        this.userDAO.save(user);
+        userDAO.save(user);
     }
 
     @Override
     public void updateRole(long userID, User.Role newRole) {
-        User user = this.userDAO.findById(userID).orElseThrow();
+        User user = userDAO.findById(userID).orElseThrow();
         user.setRole(newRole);
-        this.userDAO.save(user);
+        userDAO.save(user);
     }
 
-
+    // Optionnel : évite les effets de bord en tests
+    // @Profile("!test")
     @PostConstruct
     public void createDefaultAdmin() {
-        if (!userDAO.findByEmail("admin@gamesup.com").isPresent()) {
+        if (userDAO.findByEmail("admin@gamesup.com").isEmpty()) {
             User admin = new User();
             admin.setEmail("admin@gamesup.com");
-            admin.setPassword(passwordEncoder.encode("123456")); // ← Garde seulement cette ligne
+            admin.setPassword(passwordEncoder.encode("123456"));
             admin.setRole(User.Role.ADMIN);
             userDAO.save(admin);
-            System.out.println("Admin par défaut créé : admin@gamesup.com");
         }
     }
-
-
 }
+
